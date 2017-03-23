@@ -1,0 +1,162 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0px;
+}
+
+img.logo {
+  width: 116px;
+  height: 38px;
+}
+
+#header {
+  width: 100%;
+}
+
+.headercontent {
+  margin: 40px auto 20px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.slogan1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: #555;
+  font-family: 'Open Sans', arial;
+  font-weight: 300;
+}
+
+.slogan2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: #555;
+  font-family: 'Open Sans', arial;
+  font-weight: 400;
+}
+
+#footer {
+  width: 100%;
+}
+
+.footercontent {
+  margin: 25px auto 20px auto;
+  width: 600px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+
+img.footerimage {
+  margin-top: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.link {
+  color: #427fed;
+  margin-bottom: 50px;
+}
+
+#maincontent {
+  width: 100%;
+}
+
+#signinbox {
+  width: 274px;
+  height: 250px;
+  padding: 40px 40px;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 20px auto 20px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+img.avatar {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 15px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  height: 44px;
+  font-size: 16px;
+  margin-top: 16px;
+  color: #a8a8a8;
+  padding-left: 10px;
+}
+
+input:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.button {
+  font-size: 13px;
+  display: block;
+  font-weight: bold;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 10px;
+  min-width: 54px;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #4d90fe;
+  border: 1px solid #4d90fe;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  border: 1px solid #2f5bb7;
+  background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+}
+
+.help {
+  float: right;
+  color: #427fed;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.help:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+#footer2 {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  position: absolute;
+  bottom: 0;
+  height: 35px;
+}
+
+#levimenu {
+  margin-left: 30px;
+}
+
+.levimenu {
+  display: inline-block;
+  color: #666;
+  float:left;
+  margin-left: 20px;
+  color: #737373;
+  font-size: 11px;
+  line-height: 35px;
+}
+
+.levimenu:hover {
+  text-decoration: underline;
+}
